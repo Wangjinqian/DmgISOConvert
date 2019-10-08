@@ -1,5 +1,7 @@
+
 # DmgISOConvert
 将OS X的dmg安装文件转换为ISO格式｜convert OS X dmg to ISO
+
 下载完毕后，可使用此脚本将dmg文件转换为iso文件。任何在Windows下进行转换的iso文件都不可用
 You can use this shell scripts to convert dmg into iso after download catalina.
 hdiutil create -o /tmp/Catalina -size 9000m -layout SPUD -fs HFS+J
